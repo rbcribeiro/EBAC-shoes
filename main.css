@@ -97,6 +97,7 @@ section h2::after {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 24px;
+    margin-bottom: 20px;
 }
 
 .lista-sapatos li {
@@ -173,7 +174,7 @@ footer {
 
     .lista-sapatos {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin-bottom: 20px;
+
     }
 }
     
